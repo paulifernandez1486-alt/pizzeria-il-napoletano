@@ -53,12 +53,29 @@ font-weight: 500;
 font-family:'Oswald', sans-serif;
 }
 
-.pizza-list {
+.gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
   padding: 0;
   list-style: none;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
 }
 
+.gallery li{
+display: flex;
+box-sizing: border-box;
+width: calc(100%/3);
+padding: 10PX;
+}
+
+.gallery li .box {
+
+padding: 6px 6px 30px 6px; 
+ border: 2px solid #626568;
+
+}
