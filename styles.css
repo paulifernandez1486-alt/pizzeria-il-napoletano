@@ -52,4 +52,13 @@ color: #000000;
 font-weight: 500;
 font-family:'Oswald', sans-serif;
 }
- 
+
+.pizza-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
