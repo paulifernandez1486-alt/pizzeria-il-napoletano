@@ -1,3 +1,13 @@
+function abrirModal(pizza){
+    Swal.fire({
+  title: pizza.nombre.toUppercase(),
+  html: '<img src="${pizza.imagen"}> <p>${pizza.descripcion}</p> <p>${pizza.precio}</p>' ,
+  confirmButtonText: 'Cerrar',
+  confirmButtonColor: '#0D7139',
+  width:'500px',
+})
+}
+
 document.addEventListener('DOMContentLoaded', cargarProductos);
 
 async function cargarProductos() {
