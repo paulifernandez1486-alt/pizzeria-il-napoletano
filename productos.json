@@ -53,5 +53,23 @@
 "fecha":"20/10/2026",
 "imagen": "images/pizza-provolone.webp",
 "descripcion": "pizza de queso provolone"
+},
+
+{
+"nombre":"Pizza san martin",
+"precio":20500,
+"fecha":"22/10/2026",
+"imagen": "images/pizza-sanmartin.webp",
+"descripcion": "pizza de muzzarella con aceitunas negras y morrones asados"
+},
+
+{
+"nombre":"Pizza Italiana",
+"precio":40000,
+"fecha":"03/11/2026",
+"imagen": "images/pizza-verdura.webp",
+"descripcion": "Pizza de Muzzarella, Champignones, palmitos y alcauciles"
 }
+
+
 ]
