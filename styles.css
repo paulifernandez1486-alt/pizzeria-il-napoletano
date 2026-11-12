@@ -232,6 +232,22 @@ main h2 {
   font-family: 'Work Sans', sans-serif;
 }
 
+.search{
+  text-align: center;
+  margin: 20px 0px;
+}
+
+#input-search{
+   padding: 10px 15px;
+   width: 300px;
+   max-width: 90%; 
+   border: 2px solid #e1e8ee; 
+   border-radius: 20px; 
+   font-size: 1rem;
+   outline: none;
+}
+
+
 /* Móvil: un poco más pequeño */
 @media (max-width: 480px) {
   .whatsapp-float {
@@ -329,6 +345,8 @@ main h2 {
     margin: 0 0.75rem;
   }
 }
+
+
 
 /* Mobile pequeño (≤ 480px) */
 @media(max-width: 480px) {
