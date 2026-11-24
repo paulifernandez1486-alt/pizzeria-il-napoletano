@@ -7,4 +7,4 @@ export async function obtenerProductos() {
       const response = await fetch('productos.json');
       const productos = await response.json();
       return productos;
-} 
+}
