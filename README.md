@@ -32,5 +32,41 @@ Proyecto desarrollado con **HTML, CSS y JavaScript vanilla** (módulos ES6), sin
 - [resizing.app](https://resizing.app/)
 - [JsonLint](https://jsonlint.com/)
 
+## 📁 Estructura del proyecto
+
+
+```
+.
+├── index.html            
+├── main.js               
+├── products.json        
+├── css/
+│   └── style.css          
+├── js/
+│   ├── api.js             
+│   ├── ui.js             
+│   └── core/
+│       └── products.js    
+└── img/
+    ├── logo.svg
+    └── pizza-*.jpg 
+
+```
+
+## 🚀 Cómo ejecutarlo en local
+
+Como el proyecto usa **módulos ES** y `fetch` para leer `products.json`, **no funciona abriendo el HTML con doble clic** 
+(`file://`). Hay que servirlo con un servidor local.
+
+## 👤 Autor
+
+Desarrollado por **Paula Fernandez**
+
+-[Github](https://github.com/paulifernandez1486-alt)
+
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT.
 
 
